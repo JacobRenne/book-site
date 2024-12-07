@@ -1,0 +1,42 @@
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+/* Main page */
+
+.main-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.main-header div {
+    flex-grow: 1;
+    display: flex;
+}
+
+.main-header img {
+    height: 80px;
+    width: 80px;
+}
+
+.main-nav {
+    flex-grow: 2;
+}
+.main-nav > ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.main-nav a {
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bolder;
+}
